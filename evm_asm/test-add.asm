@@ -1,0 +1,3 @@
+PUSH32 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+PUSH32 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ADD

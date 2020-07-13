@@ -1,6 +1,8 @@
-# Project Title
+# OpenEthereum EVM Meter for EVM-Perf
 
-One Paragraph of project description goes here
+This is a standalone wrapper for the OpenEthereum EVM that allows the execution of EVM code without considering any externalities.
+
+This project (including this README) is work in progress!
 
 ## Getting Started
 
@@ -52,23 +54,14 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/abusse/evm-perft/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/abusse/
+openethereum-evm-standalone/tags).
 
 ## Authors
 
@@ -78,10 +71,4 @@ See also the list of [contributors](https://github.com/abusse/evm-perf/contribut
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+This project is licensed under the GPL License - see the [LICENSE.md](LICENSE.md) file for details

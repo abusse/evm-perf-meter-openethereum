@@ -1,0 +1,19 @@
+[package]
+description = "OpenEthereum EVM Meter for EVM-Perf"
+name = "evm-perf-meter-openethereum"
+version = "0.0.1"
+authors = ["Anselm Busse <anselm.busse@outlook.com>"]
+
+[dependencies]
+parity-bytes = "0.1"
+ethereum-types = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sys-info = "0.7"
+rustc-hex = "1.0"
+cfg-if = "0.1"
+vm = { git = "https://github.com/OpenEthereum/openethereum", tag = "v3.1.0" }
+evm = { git = "https://github.com/OpenEthereum/openethereum", tag = "v3.1.0" }
+
+[target.'cfg(target_os = "linux")'.dependencies]
+perfcnt = { git = "https://github.com/abusse/rust-perfcnt", branch = "multi-arch" }
